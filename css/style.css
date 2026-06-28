@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    text-align:center;
+    background:#111827;
+    color:white;
+    padding:15px;
+}
+
+header h1{
+    font-size:24px;
+}
+.apps{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:15px;
+}
+
+.app-card{
+    background:white;
+    padding:12px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.app-card img{
+    width:70px;
+    height:70px;
+    border-radius:15px;
+}
+
+.app-card h2{
+    font-size:14px;
+    margin:10px 0;
+}
+
+.app-card a{
+    display:inline-block;
+    padding:6px 12px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:12px;
+}
