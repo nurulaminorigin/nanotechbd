@@ -1,0 +1,1 @@
+console.log("NanoTech BD website loaded successfully");
